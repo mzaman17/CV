@@ -1,0 +1,123 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:#3498db;
+  font-family: 'Cookie', cursive;
+}
+.container{
+  max-width:1000px;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+  margin:0 auto;
+  padding:20px;
+}
+
+.image-profile{
+  max-width: 100px;
+  height:120px;
+  border:3px solid #80D0C7;
+  border-radius: 100px / 50px; 
+  float:left;
+  padding:5px;
+
+}
+.image-profile:hover{
+  max-width: 200px;
+  height:180px;
+
+}
+
+.header-intro{
+  float:left;
+  padding:30px;
+}
+
+.header-contact{
+  float: right;
+  padding:30px;
+}
+.header-contact a{
+  text-decoration: none;
+  color:whitesmoke;
+  font-weight: bold;
+}
+.header-contact a:hover{
+  text-decoration: underline;
+  color:blue;
+}
+.div-clear{
+  clear:both;
+}
+hr{
+  border:solid #80D0C7 3px;
+  max-width:100%;
+  margin:20px auto;
+  border-bottom:none;
+}
+.personalinfo{
+  float:left;
+}
+.Address p{
+  float:left;
+  text-align: center;
+}
+.footer {
+  padding:20px;
+  background-color:#2c3e50 ;
+
+
+}
+.footer i {
+  padding:5px;
+  background-color:#3498db;
+  transition: width 2s, transform 2s;
+
+}
+.footer i:hover{
+padding:10px;
+}
+
+.footer p{
+  text-align: center;
+  color:wheat
+}
+
+.footer a{
+   padding: 2px;
+   margin: 0 auto;
+}
+.footer ul{
+  position:absolute;
+  display: flex;
+float: right;
+ 
+}
+.footer ul li{
+  list-style-type: none;
+  margin:10px;
+}
+.footer ul li a i:hover{
+  transform: rotate(360deg);
+} 
+*{
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 992px) {
+  .container{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    width: 80%;
+  }
+}
+.center {
+  text-align: center;
+  width: 100%;
+}
