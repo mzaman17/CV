@@ -74,7 +74,7 @@ hr{
   padding:5px;
   background-color:#3498db;
   transition: width 2s, transform 2s;
-
+  box-shadow: 5px 3px 4px powderblue;
 }
 .footer i:hover{
 padding:10px;
