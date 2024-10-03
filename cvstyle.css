@@ -32,12 +32,12 @@ body{
 
 .header-intro{
   float:left;
-  padding:30px;
+  padding:20px;
 }
 
 .header-contact{
   float: right;
-  padding:30px;
+  padding:20px;
 }
 .header-contact a{
   text-decoration: none;
